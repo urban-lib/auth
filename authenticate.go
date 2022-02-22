@@ -2,9 +2,9 @@ package users
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/urban-lib/auth/jwt"
 	"net/http"
 	"strings"
-	"users/jwt"
 )
 
 var manage jwt.AuthManager
